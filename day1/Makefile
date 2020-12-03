@@ -22,7 +22,7 @@ day1_solution: $(OBJS)
 testall: test1 
 
 test1: day1_solution 
-	./day1_solution	inputs/basic_test > basic_results
+	./day1_solution	input/basic_test
 
 clean: # remove all machine generated files
 	rm -f day1_solution *.o output*
